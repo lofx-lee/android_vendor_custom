@@ -70,6 +70,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TouchGestures
 
+# Component overrides
+PRODUCT_PACKAGES += \
+    pixel-component-overrides.xml
+    
 # Updater
 include vendor/custom/config/ota.mk
 

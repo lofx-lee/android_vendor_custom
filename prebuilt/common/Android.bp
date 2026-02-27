@@ -1,0 +1,12 @@
+//
+// SPDX-FileCopyrightText: The PixelOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc_xml {
+    name: "pixel-component-overrides.xml",
+    product_specific: true,
+    src: "etc/pixel-component-overrides.xml",
+    sub_dir: "sysconfig",
+    secontext: "u:object_r:product_etc_file:s0",
+}

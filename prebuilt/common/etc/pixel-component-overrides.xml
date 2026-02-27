@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- These are configurations that should exist on Google's 2016 Pixel devices. -->
+<config>
+
+    <!-- Allow to showing the search bar in Google Quick Search Box-->
+    <component-override package="com.google.android.googlequicksearchbox">
+    <component class=".OneSearchAimActivity" enabled="true" />
+    </component-override>
+
+</config>
