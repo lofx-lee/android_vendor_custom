@@ -1,0 +1,6 @@
+prebuilt_etc_xml {
+    name: "pixel-component-overrides.xml",
+    product_specific: true,
+    src: "etc/pixel-component-overrides.xml",
+    sub_dir: "sysconfig",
+}
